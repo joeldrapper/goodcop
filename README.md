@@ -8,4 +8,4 @@ Good Cop is a configuration for [RuboCop](https://rubocop.org) that’s been kno
 inherit_from: "https://www.goodcop.style/rubocop.yml"
 ```
 
-If RuboCop goes goblin mode on your code, [open an issue](https://github.com/joeldrapper/good_cop/issues/new) and let us know.
+If RuboCop goes goblin mode on your code, please [open an issue](https://github.com/joeldrapper/good_cop/issues/new) and let us know.
