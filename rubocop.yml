@@ -19,6 +19,9 @@ Layout/CommentIndentation:
 Layout/EndAlignment:
   EnforcedStyleAlignWith: start_of_line
 
+Layout/HashAlignment:
+  Enabled: false
+
 Layout/LineLength:
   Enabled: false
 
