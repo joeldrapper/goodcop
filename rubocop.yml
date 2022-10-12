@@ -160,5 +160,8 @@ Style/SymbolArray:
 Style/TrailingCommaInHashLiteral:
   Enabled: false
 
+Style/WordArray:
+  Enabled: false
+
 Style/ZeroLengthPredicate:
   Enabled: false
