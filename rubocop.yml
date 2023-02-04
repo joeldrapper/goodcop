@@ -11,7 +11,7 @@ Layout/ArrayAlignment:
   Enabled: false
 
 Layout/CaseIndentation:
-  EnforcedStyle: end
+  Enabled: false
 
 Layout/CommentIndentation:
   AllowForAlignment: true
@@ -23,6 +23,9 @@ Layout/HashAlignment:
   Enabled: false
 
 Layout/LineLength:
+  Enabled: false
+
+Layout/MultilineMethodCallBraceLayout:
   Enabled: false
 
 Layout/MultilineOperationIndentation:
@@ -41,6 +44,9 @@ Lint/EmptyClass:
   AllowComments: true
 
 Lint/MissingSuper:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
 Lint/UnusedMethodArgument:
@@ -76,6 +82,9 @@ Style/BeginBlock:
 Style/BlockDelimiters:
   Enabled: false
 
+Style/CaseEquality:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
@@ -83,6 +92,9 @@ Style/ClassCheck:
   Enabled: false
 
 Style/ClassMethodsDefinitions:
+  Enabled: false
+
+Style/ConditionalAssignment:
   Enabled: false
 
 Style/Documentation:
@@ -145,6 +157,9 @@ Style/NumericPredicate:
 Style/ParallelAssignment:
   Enabled: false
 
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
 Style/RedundantAssignment:
   Enabled: false
 
@@ -152,6 +167,9 @@ Style/Semicolon:
   AllowAsExpressionSeparator: true
 
 Style/Send:
+  Enabled: false
+
+Style/StringConcatenation:
   Enabled: false
 
 Style/StringLiterals:
