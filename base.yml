@@ -181,6 +181,9 @@ Style/MultipleComparison:
 Style/MutableConstant:
   Enabled: false
 
+Style/NilComparison:
+  Enabled: false
+
 Style/NumberedParametersLimit:
   Enabled: false
 
