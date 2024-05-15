@@ -49,6 +49,9 @@ Lint/MissingSuper:
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
+Lint/UnreachableLoop:
+  Enabled: false
+
 Lint/UnusedMethodArgument:
   Enabled: false
 
@@ -58,11 +61,20 @@ Metrics:
 Naming/AccessorMethodName:
   Enabled: false
 
+Naming/AsciiIdentifiers:
+  Enabled: false
+
+Naming/BlockForwarding:
+  Enabled: false
+
 Naming/ConstantName:
   Enabled: false
 
 Naming/MemoizedInstanceVariableName:
   EnforcedStyleForLeadingUnderscores: optional
+
+Naming/MethodName:
+  Enabled: false
 
 Naming/MethodParameterName:
   MinNameLength: 1
@@ -75,6 +87,9 @@ Style/AccessorGrouping:
 
 Style/Alias:
   EnforcedStyle: prefer_alias_method
+
+Style/ArgumentsForwarding:
+  Enabled: false
 
 Style/BeginBlock:
   Enabled: false
@@ -115,6 +130,9 @@ Style/EmptyMethod:
 Style/EndBlock:
   Enabled: false
 
+Style/ExplicitBlockArgument:
+  Enabled: false
+
 Style/FetchEnvVar:
   Enabled: false
 
@@ -131,6 +149,9 @@ Style/KeywordParametersOrder:
   Enabled: false
 
 Style/MixinGrouping:
+  Enabled: false
+
+Style/MixinUsage:
   Enabled: false
 
 Style/ModuleFunction:
@@ -154,6 +175,9 @@ Style/NumericLiterals:
 Style/NumericPredicate:
   Enabled: false
 
+Style/OptionalArguments:
+  Enabled: false
+
 Style/ParallelAssignment:
   Enabled: false
 
@@ -161,6 +185,12 @@ Style/PercentLiteralDelimiters:
   Enabled: false
 
 Style/RedundantAssignment:
+  Enabled: false
+
+Style/RedundantDoubleSplatHashBraces:
+  Enabled: false
+
+Style/ReturnNilInPredicateMethodDefinition:
   Enabled: false
 
 Style/Semicolon:
