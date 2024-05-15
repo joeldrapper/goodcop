@@ -4,7 +4,7 @@
 
 Good Cop is a configuration for [RuboCop](https://rubocop.org) that’s been known to be a little more lenient and agreeable than other cops. Just add this line to the top of your RuboCop config file to start using it today.
 
-```
+```yaml
 inherit_from: "https://www.goodcop.style/base.yml"
 ```
 
