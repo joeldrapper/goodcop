@@ -10,10 +10,26 @@ inherit_from: "https://www.goodcop.style/base.yml"
 
 If RuboCop goes goblin mode on your code, please [open an issue](https://github.com/joeldrapper/good_cop/issues/new) and let us know.
 
+# Starting a new project?
+
+Copy the folliowing into your `.rubocop.yml` file to get started with a good base configuration.
+
+```yaml
+inherit_from:
+  - "https://www.goodcop.style/base.yml"
+
+AllCops:
+  TargetRubyVersion: 3.3
+```
+
 ## Tabs
 
-Please also consider adding this configuration to make your code more accessible to others by switching from spaces to tabs for indentation.
+By default, spaces are used for indentation. But I recommend using tabs for better accessibility.
 
-```
-inherit_from: "https://www.goodcop.style/tabs.yml"
+```yaml
+inherit_from:
+  - "https://www.goodcop.style/tabs.yml"
+
+AllCops:
+  TargetRubyVersion: 3.3
 ```
