@@ -46,6 +46,9 @@ Lint/EmptyClass:
 Lint/MissingSuper:
   Enabled: false
 
+Lint/RescueException:
+  Enabled: false
+
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 
@@ -53,6 +56,9 @@ Lint/UnreachableLoop:
   Enabled: false
 
 Lint/UnusedMethodArgument:
+  Enabled: false
+
+Lint/Void:
   Enabled: false
 
 Metrics:
@@ -78,6 +84,9 @@ Naming/MethodName:
 
 Naming/MethodParameterName:
   MinNameLength: 1
+
+Naming/PredicateName:
+  Enabled: false
 
 Style/AccessModifierDeclarations:
   Enabled: false
@@ -145,6 +154,9 @@ Style/IfUnlessModifier:
 Style/IfUnlessModifierOfIfUnless:
   Enabled: false
 
+Style/InfiniteLoop:
+  Enabled: false
+
 Style/KeywordParametersOrder:
   Enabled: false
 
@@ -155,6 +167,9 @@ Style/MixinUsage:
   Enabled: false
 
 Style/ModuleFunction:
+  Enabled: false
+
+Style/MultilineBlockChain:
   Enabled: false
 
 Style/MultilineMemoization:
@@ -212,6 +227,9 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 
 Style/WordArray:
+  Enabled: false
+
+Style/YodaCondition:
   Enabled: false
 
 Style/ZeroLengthPredicate:
