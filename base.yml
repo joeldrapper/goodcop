@@ -88,6 +88,9 @@ Naming/MethodParameterName:
 Naming/PredicateName:
   Enabled: false
 
+Naming/VariableName:
+  Enabled: false
+
 Style/AccessModifierDeclarations:
   Enabled: false
 
@@ -182,6 +185,9 @@ Style/MutableConstant:
   Enabled: false
 
 Style/NilComparison:
+  Enabled: false
+
+Style/NonNilCheck:
   Enabled: false
 
 Style/NumberedParametersLimit:
