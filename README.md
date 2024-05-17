@@ -8,7 +8,7 @@ Good Cop is a configuration for [RuboCop](https://rubocop.org) that’s been kno
 inherit_from: "https://www.goodcop.style/base.yml"
 ```
 
-If RuboCop goes goblin mode on your code, please [open an issue](https://github.com/joeldrapper/good_cop/issues/new) and let us know.
+If Good Cop goes goblin mode on your code, please [open an issue](https://github.com/joeldrapper/good_cop/issues/new) and let me know.
 
 # Starting a new project?
 
@@ -24,12 +24,9 @@ AllCops:
 
 ## Tabs
 
-By default, spaces are used for indentation. But I recommend using tabs for better accessibility.
+By default, spaces are used for indentation since that’s pretty standard for Ruby. However, I recommend using tabs for better accessibility. If you like tabs, you can inherit form this configuration instead.
 
 ```yaml
 inherit_from:
   - "https://www.goodcop.style/tabs.yml"
-
-AllCops:
-  TargetRubyVersion: 3.3
 ```
