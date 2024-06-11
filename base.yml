@@ -820,11 +820,6 @@ Style/NumericLiteralPrefix:
   Enabled: true
   EnforcedOctalStyle: zero_with_o
 
-Style/NumericLiterals:
-  Enabled: true
-  MinDigits: 5
-  Strict: false
-
 Style/ObjectThen:
   Enabled: true
   EnforcedStyle: then
