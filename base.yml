@@ -2,14 +2,6 @@
 AllCops:
   DisabledByDefault: true
 
-FrozenStringLiteralComment:
-  Enabled: true
-  EnforcedStyle: always
-
-MultilineHashKeyLineBreaks:
-  Enabled: true
-  AllowMultilineFinalElement: false
-
 Layout/ArgumentAlignment:
   Enabled: true
   EnforcedStyle: with_fixed_indentation
@@ -199,6 +191,10 @@ Layout/MultilineBlockLayout:
 Layout/MultilineHashBraceLayout:
   Enabled: true
   EnforcedStyle: new_line
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+  AllowMultilineFinalElement: false
 
 Layout/MultilineMethodCallIndentation:
   Enabled: true
@@ -756,6 +752,10 @@ Style/ExactRegexpMatch:
 
 Style/ExpandPathArguments:
   Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
 
 Style/HashExcept:
   Enabled: true
