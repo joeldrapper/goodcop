@@ -784,7 +784,7 @@ Style/MagicCommentFormat:
   Enabled: true
 
 Style/MapCompactWithConditionalBlock:
-  Enable: true
+  Enabled: true
 
 Style/MapToHash:
   Enabled: true
