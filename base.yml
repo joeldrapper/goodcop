@@ -686,9 +686,6 @@ Lint/UselessSetterCall:
 Lint/UselessTimes:
   Enabled: true
 
-Lint/Void:
-  Enabled: true
-
 Migration/DepartmentName:
   Enabled: true
 
