@@ -490,9 +490,6 @@ Lint/LiteralInInterpolation:
 Lint/MissingCopEnableDirective:
   Enabled: true
 
-Lint/MixedRegexpCaptureTypes:
-  Enabled: false
-
 Lint/MultipleComparison:
   Enabled: true
 
@@ -512,9 +509,6 @@ Lint/NonDeterministicRequireOrder:
   Enabled: true
 
 Lint/NonLocalExitFromIterator:
-  Enabled: true
-
-Lint/NumberConversion:
   Enabled: true
 
 Lint/NumberedParameterAssignment:
@@ -663,9 +657,6 @@ Lint/UriRegexp:
   Enabled: true
 
 Lint/UselessAccessModifier:
-  Enabled: true
-
-Lint/UselessAssignment:
   Enabled: true
 
 Lint/UselessElseWithoutRescue:
