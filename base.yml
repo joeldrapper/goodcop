@@ -732,9 +732,6 @@ Style/EmptyLambdaParameter:
 Style/EnvHome:
   Enabled: true
 
-Style/EvalWithLocation:
-  Enabled: true
-
 Style/ExactRegexpMatch:
   Enabled: true
 
