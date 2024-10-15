@@ -366,9 +366,6 @@ Lint/DeprecatedOpenSSLConstant:
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 
-Lint/DuplicateBranch:
-  Enabled: true
-
 Lint/DuplicateCaseCondition:
   Enabled: true
 
