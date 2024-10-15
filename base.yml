@@ -426,10 +426,6 @@ Lint/EmptyInPattern:
 Lint/EmptyInterpolation:
   Enabled: true
 
-Lint/EmptyWhen:
-  Enabled: true
-  AllowComments: true
-
 Lint/EnsureReturn:
   Enabled: true
 
