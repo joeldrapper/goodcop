@@ -401,10 +401,6 @@ Lint/EmptyBlock:
   AllowComments: true
   AllowEmptyLambdas: true
 
-Lint/EmptyClass:
-  Enabled: true
-  AllowComments: true
-
 Lint/EmptyConditionalBody:
   Enabled: true
   AllowComments: true
