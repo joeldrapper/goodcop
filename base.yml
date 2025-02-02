@@ -849,10 +849,6 @@ Style/RedundantEach:
 Style/RedundantException:
   Enabled: true
 
-Style/RedundantFetchBlock:
-  Enabled: true
-  SafeForConstants: false
-
 Style/RedundantFileExtensionInRequire:
   Enabled: true
 
