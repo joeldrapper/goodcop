@@ -4,63 +4,80 @@ AllCops:
 
 Layout/ArgumentAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: with_fixed_indentation
 
 Layout/ArrayAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: with_fixed_indentation
 
 Layout/AssignmentIndentation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/BeginEndAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleAlignWith: start_of_line
 
 Layout/BlockAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleAlignWith: either
 
 Layout/BlockEndNewline:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/ClosingHeredocIndentation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/ClosingParenthesisIndentation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/CommentIndentation:
   Enabled: true
+  SafeAutoCorrect: true
   AllowForAlignment: true
 
 Layout/ConditionPosition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/DefEndAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleAlignWith: start_of_line
 
 Layout/DotPosition:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: leading
 
 Layout/ElseAlignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyComment:
   Enabled: true
+  SafeAutoCorrect: true
   AllowBorderComment: true
   AllowMarginComment: true
 
 Layout/EmptyLineAfterMagicComment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLineAfterMultilineCondition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLineBetweenDefs:
   Enabled: true
+  SafeAutoCorrect: true
   EmptyLineBetweenMethodDefs: true
   EmptyLineBetweenClassDefs: true
   EmptyLineBetweenModuleDefs: true
@@ -69,16 +86,20 @@ Layout/EmptyLineBetweenDefs:
 
 Layout/EmptyLines:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: around
 
 Layout/EmptyLinesAroundArguments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
+  SafeAutoCorrect: true
   AllowAliasSyntax: true
   AllowedMethods:
     - alias_method
@@ -88,958 +109,1247 @@ Layout/EmptyLinesAroundAttributeAccessor:
 
 Layout/EmptyLinesAroundBeginBody:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundBlockBody:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_empty_lines
 
 Layout/EmptyLinesAroundExceptionHandlingKeywords:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundMethodBody:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/EmptyLinesAroundModuleBody:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_empty_lines
 
 Layout/EndAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleAlignWith: start_of_line
 
 Layout/EndOfLine:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: native
 
 Layout/ExtraSpacing:
   Enabled: true
+  SafeAutoCorrect: true
   AllowForAlignment: true
   AllowBeforeTrailingComments: false
   ForceEqualSignAlignment: false
 
 Layout/FirstArrayElementLineBreak:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMultilineFinalElement: false
 
 Layout/FirstHashElementLineBreak:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMultilineFinalElement: false
 
 Layout/FirstParameterIndentation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: consistent
 
 Layout/HashAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
   EnforcedLastArgumentHashStyle: always_inspect
 
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/HeredocIndentation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/IndentationConsistency:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: normal
 
 Layout/IndentationStyle:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: spaces
 
 Layout/IndentationWidth:
   Enabled: true
+  SafeAutoCorrect: true
   Width: 2
 
 Layout/InitialIndentation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/LeadingCommentSpace:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/LeadingEmptyLines:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/LineContinuationSpacing:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: space
 
 Layout/LineEndStringConcatenationIndentation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: indented
 
 Layout/MultilineArrayBraceLayout:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: new_line
 
 Layout/MultilineArrayLineBreaks:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMultilineFinalElement: false
 
 Layout/MultilineAssignmentLayout:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: same_line
 
 Layout/MultilineBlockLayout:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/MultilineHashBraceLayout:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: new_line
 
 Layout/MultilineHashKeyLineBreaks:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMultilineFinalElement: false
 
 Layout/MultilineMethodCallIndentation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: indented
 
 Layout/MultilineMethodDefinitionBraceLayout:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: new_line
 
 Layout/MultilineOperationIndentation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: indented
 
 Layout/ParameterAlignment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: with_fixed_indentation
 
 Layout/RescueEnsureAlignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAfterColon:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAfterComma:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAfterMethodName:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAfterNot:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAfterSemicolon:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAroundBlockParameters:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleInsidePipes: no_space
 
 Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: space
 
 Layout/SpaceAroundKeyword:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceAroundOperators:
   Enabled: true
+  SafeAutoCorrect: true
   AllowForAlignment: false
   EnforcedStyleForExponentOperator: space
   EnforcedStyleForRationalLiterals: space
 
 Layout/SpaceBeforeBlockBraces:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: space
 
 Layout/SpaceBeforeBrackets:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceBeforeComma:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceBeforeComment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceBeforeFirstArg:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceBeforeSemicolon:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceInLambdaLiteral:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: require_space
 
 Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_space
 
 Layout/SpaceInsideArrayPercentLiteral:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceInsideBlockBraces:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: no_space
   SpaceBeforeBlockParameters: true
 
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: no_space
 
 Layout/SpaceInsideParens:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_space
 
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceInsideRangeLiteral:
   Enabled: true
+  SafeAutoCorrect: true
 
 Layout/SpaceInsideReferenceBrackets:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_space
   EnforcedStyleForEmptyBrackets: no_space
 
 Layout/SpaceInsideStringInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_space
 
 Layout/TrailingEmptyLines:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: final_newline
 
 Layout/TrailingWhitespace:
   Enabled: true
+  SafeAutoCorrect: true
   AllowInHeredoc: true
 
 Lint/AmbiguousAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/AmbiguousOperator:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/AmbiguousOperatorPrecedence:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/AmbiguousRange:
   Enabled: true
+  SafeAutoCorrect: true
   RequireParenthesesForMethodChains: true
 
 Lint/AmbiguousRegexpLiteral:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/AssignmentInCondition:
   Enabled: true
+  SafeAutoCorrect: true
   AllowSafeAssignment: true
 
 Lint/BigDecimalNew:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/CircularArgumentReference:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ConstantDefinitionInBlock:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ConstantOverwrittenInRescue:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/Debugger:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DeprecatedClassMethods:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DeprecatedConstants:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateCaseCondition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateHashKey:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateMagicComment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateMatchPattern:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateMethods:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateRequire:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/DuplicateRescueException:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/EachWithObjectArgument:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ElseLayout:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/EmptyBlock:
   Enabled: true
+  SafeAutoCorrect: true
   AllowComments: true
   AllowEmptyLambdas: true
 
 Lint/EmptyConditionalBody:
   Enabled: true
+  SafeAutoCorrect: true
   AllowComments: true
 
 Lint/EmptyEnsure:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/EmptyExpression:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/EmptyFile:
   Enabled: true
+  SafeAutoCorrect: true
   AllowComments: true
 
 Lint/EmptyInPattern:
   Enabled: true
+  SafeAutoCorrect: true
   AllowComments: true
 
 Lint/EmptyInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/EnsureReturn:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ErbNewArguments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/FlipFlop:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/FloatComparison:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/FloatOutOfRange:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/FormatParameterMismatch:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/HashCompareByIdentity:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/HeredocMethodCallPosition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/IdentityComparison:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ImplicitStringConcatenation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/IncompatibleIoSelectWithFiberScheduler:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/IneffectiveAccessModifier:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/InheritException:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/InterpolationCheck:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ItWithoutArgumentsInBlock:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/LambdaWithoutLiteralBlock:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/LiteralAssignmentInCondition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/LiteralInInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/MissingCopEnableDirective:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/MultipleComparison:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NestedPercentLiteral:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NextWithoutAccumulator:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NoReturnInBeginEndBlocks:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NonAtomicFileOperation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NonDeterministicRequireOrder:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NonLocalExitFromIterator:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/NumberedParameterAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/OrAssignmentToConstant:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/OrderedMagicComments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/OutOfRangeRegexpRef:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ParenthesesAsGroupedExpression:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RaiseException:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RandOne:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantCopDisableDirective:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantCopEnableDirective:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantDirGlobSort:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantRegexpQuantifiers:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantRequireStatement:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantSafeNavigation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantSplatExpansion:
   Enabled: true
+  SafeAutoCorrect: true
   AllowPercentLiteralArrayArgument: true
 
 Lint/RedundantStringCoercion:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantWithIndex:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RedundantWithObject:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RefinementImportMethods:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RegexpAsCondition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RequireParentheses:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RequireRangeParentheses:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RequireRelativeSelfPath:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/RescueType:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ReturnInVoidContext:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SafeNavigationChain:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SafeNavigationConsistency:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SafeNavigationWithEmpty:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ScriptPermission:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SelfAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SendWithMixinArgument:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ShadowedException:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/StructNewOverride:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/SuppressedException:
   Enabled: true
+  SafeAutoCorrect: true
   AllowNil: true
   AllowComments: true
 
 Lint/SymbolConversion:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: strict
 
 Lint/Syntax:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ToEnumArguments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/ToJSON:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/TopLevelReturnWithArgument:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/TrailingCommaInAttributeDeclaration:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/TripleQuotes:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UnderscorePrefixedVariableName:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UnexpectedBlockArity:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UnifiedInteger:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UnreachableCode:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UriEscapeUnescape:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UriRegexp:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessAccessModifier:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessElseWithoutRescue:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessMethodDefinition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessRescue:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessRuby2Keywords:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessSetterCall:
   Enabled: true
+  SafeAutoCorrect: true
 
 Lint/UselessTimes:
   Enabled: true
+  SafeAutoCorrect: true
 
 Migration/DepartmentName:
   Enabled: true
+  SafeAutoCorrect: true
 
 Security/CompoundHash:
   Enabled: true
+  SafeAutoCorrect: true
 
 Security/IoMethods:
   Enabled: true
+  SafeAutoCorrect: true
 
 Security/JSONLoad:
   Enabled: true
+  SafeAutoCorrect: true
 
 Security/Open:
   Enabled: true
+  SafeAutoCorrect: true
 
 Security/YAMLLoad:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/ArgumentsForwarding:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/ComparableClamp:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/DefWithParentheses:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/Dir:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/DirEmpty:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EachForSimpleLoop:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EachWithObject:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EmptyBlockParameter:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EmptyElse:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: empty
 
 Style/EmptyHeredoc:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EmptyLambdaParameter:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/EnvHome:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/ExactRegexpMatch:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/ExpandPathArguments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/FrozenStringLiteralComment:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: always
 
 Style/HashExcept:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/HashLikeCase:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/HashSyntax:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: no_mixed_keys
   EnforcedShorthandSyntax: always
 
 Style/HashTransformKeys:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/HashTransformValues:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/IfWithSemicolon:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/InPatternThen:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MagicCommentFormat:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MapCompactWithConditionalBlock:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MapToHash:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MapToSet:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MethodCallWithoutArgsParentheses:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/MethodDefParentheses:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: require_parentheses
 
 Style/ModuleFunction:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: extend_self
 
 Style/MultilineIfModifier:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/NegatedUnless:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/NegatedWhile:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/NumberedParameters:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: disallow
 
 Style/NumericLiteralPrefix:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedOctalStyle: zero_with_o
 
 Style/ObjectThen:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: then
 
 Style/OperatorMethodCall:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/OrAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/PreferredHashMethods:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: short
 
 Style/Proc:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/QuotedSymbols:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: same_as_string_literals
 
 Style/RaiseArgs:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: compact
 
 Style/RandomWithOffset:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantArrayConstructor:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantBegin:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantCondition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantConditional:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantCurrentDirectoryInPath:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantDoubleSplatHashBraces:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantEach:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantException:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantFilterChain:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantFreeze:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantHeredocDelimiterQuotes:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantInitialize:
   Enabled: true
+  SafeAutoCorrect: true
   AllowComments: true
 
 Style/RedundantInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantLineContinuation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantRegexpArgument:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantRegexpCharacterClass:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantRegexpConstructor:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantRegexpEscape:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantReturn:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMultipleReturnValues: true
 
 Style/RedundantSelf:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantSelfAssignmentBranch:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantSort:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantSortBy:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RedundantStringEscape:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RegexpLiteral:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: slashes
   AllowInnerSlashes: false
 
 Style/RescueModifier:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/RescueStandardError:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: implicit
 
 Style/SafeNavigation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/Sample:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SelfAssignment:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/Semicolon:
   Enabled: true
+  SafeAutoCorrect: true
   AllowAsExpressionSeparator: true
 
 Style/Send:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SendWithLiteralMethodName:
   Enabled: true
+  SafeAutoCorrect: true
   AllowSend: true
 
 Style/SignalException:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: only_raise
 
 Style/SingleArgumentDig:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SingleLineDoEndBlock:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SoleNestedConditional:
   Enabled: true
+  SafeAutoCorrect: true
   AllowModifier: false
 
 Style/StabbyLambdaParentheses:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: require_parentheses
 
 Style/StderrPuts:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/StringChars:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/StringConcatenation:
   Enabled: true
+  SafeAutoCorrect: true
   Mode: aggressive
 
 Style/StringLiterals:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: double_quotes
 
 Style/StringLiteralsInInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: single_quotes
 
 Style/Strip:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SuperArguments:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SuperWithArgsParentheses:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SwapValues:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SymbolLiteral:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/SymbolProc:
   Enabled: true
+  SafeAutoCorrect: true
   AllowMethodsWithArguments: false
   AllowComments: true
 
 Style/TernaryParentheses:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: require_parentheses_when_complex
   AllowSafeAssignment: true
 
 Style/TrailingBodyOnClass:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/TrailingBodyOnMethodDefinition:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/TrailingBodyOnModule:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/TrailingCommaInArrayLiteral:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInBlockArgs:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/TrailingCommaInHashLiteral:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyleForMultiline: comma
 
 Style/TrailingMethodEndStatement:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/TrailingUnderscoreVariable:
   Enabled: true
+  SafeAutoCorrect: true
   AllowNamedUnderscoreVariables: true
 
 Style/UnlessElse:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/UnlessLogicalOperators:
   Enabled: true
+  SafeAutoCorrect: true
   EnforcedStyle: forbid_mixed_logical_operators
 
 Style/UnpackFirst:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/VariableInterpolation:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/WhenThen:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/WhileUntilDo:
   Enabled: true
+  SafeAutoCorrect: true
 
 Style/YAMLFileRead:
   Enabled: true
+  SafeAutoCorrect: true
