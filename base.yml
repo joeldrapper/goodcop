@@ -730,6 +730,7 @@ Style/ExpandPathArguments:
 Style/FrozenStringLiteralComment:
   Enabled: true
   EnforcedStyle: always
+  SafeAutoCorrect: true
 
 Style/HashExcept:
   Enabled: true
