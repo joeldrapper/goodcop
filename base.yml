@@ -161,6 +161,7 @@ Layout/InitialIndentation:
 
 Layout/LeadingCommentSpace:
   Enabled: true
+  AllowRBSInlineAnnotation: true
 
 Layout/LeadingEmptyLines:
   Enabled: true
